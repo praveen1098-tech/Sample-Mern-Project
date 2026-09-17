@@ -12,5 +12,5 @@ router.get("/viewtasks",(req,res)=>{
 router.delete("/deleteEmp",(req,res)=>{
     res.send("Delete employees route");
 });
-// localhost:3000/api/employee/viewtasks GET
+// localhost:3000/api/emp/viewtasks GET
 module.exports=router;
